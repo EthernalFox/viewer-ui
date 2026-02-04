@@ -1,7 +1,7 @@
 import "@mantine/core/styles.css";
 import { MantineProvider, Text } from "@mantine/core";
 
-const TestPage = () => {
+export const TestPage = () => {
   return (
     <MantineProvider>
       <main>
@@ -10,5 +10,3 @@ const TestPage = () => {
     </MantineProvider>
   );
 };
-
-export default TestPage;
